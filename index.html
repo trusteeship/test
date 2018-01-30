@@ -5,12 +5,15 @@
     <title>Document</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
  <link rel="stylesheet" href="https://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.css">
-<script src="https://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
+ <style>
+     .date{position:relative; top:40%;}
+ </style>
+ <script src="https://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="https://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 
 </head>
 <body>
-<div data-role="page" id="donate">
+<div data-role="page" id="donate" data-theme="b">
     <div data-role="header">header
         <h2>Donate</h2>
         <div data-role="navbar">
@@ -23,26 +26,30 @@
         </div>
     </div>
     <div data-role="content">content</div>
-    <div data-role="footer">footer <br>
-
-    </div>
+    <div data-role="footer">footer</div>
     Donate
 </div>
 <div data-role="page" id="stats">
     Stats <br>
-
+ 
 </div>
 
+
+<div class="date">
+       E-mail: <input type="email" name="user_email"> <br>
+    HomePage: <input type="url"> <br>
+    Points: <input type="number" min="1" max="10"> <br>
+    Range: <input type="range" min="2" max="12"> <br>
+    Date: <input type="date"> <br>
+    Month: <input type="month"> <br>
+    Week: <input type="week"> <br>
+    Time: <input type="time"> <br>
+    Datetime: <input type="datatime"> <br>
+    Datetime-local: <input type="datetime-local">
+</div>
  
-		E-mail: <input type="email" name="user_email"> <br>
-	HomePage: <input type="url"> <br>
-	Points: <input type="number" min="1" max="10"> <br>
-	Range: <input type="range" min="2" max="12"> <br>
-	Date: <input type="date"> <br>
-	Month: <input type="month"> <br>
-	Week: <input type="week"> <br>
-	Time: <input type="time"> <br>
-	Datetime: <input type="datatime"> <br>
-	Datetime-local: <input type="datetime-local">
+
+
+
 </body>
 </html>
